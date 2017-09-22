@@ -1,0 +1,24 @@
+{
+  "name": "filemeta-microservice",
+  "version": "0.0.1",
+  "description": "An application that returns metadata for an uploaded file.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://znicholasbrown.github.io/filemeta-microservice"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "fcc",
+    "express"
+  ]
+}
