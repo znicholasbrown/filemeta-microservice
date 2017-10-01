@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Metadata Microservice</title>
+    <meta name="description" content="A microservice that accepts a file and returns the size of said file.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        File Metadata Microservice
+      </h1>
+    </header>
+
+    <main>
+      <p>
+        Upload a file and submit to return a JSON object with the file size in bytes.
+      </p>
+<form ref="uploadForm"
+      id="uploadForm"
+      action="https://gaudy-devourer.glitch.me/upload"
+      method="post"
+      enctype="multipart/form-data">
+        <input type="file" name="test" />
+        <input type="submit" value="Upload!" />
+    </form>
+
+    </main>
+
+
+  </body>
+</html>

@@ -1,24 +1,24 @@
 {
-  "name": "filemeta-microservice",
-  "version": "0.0.1",
-  "description": "An application that returns metadata for an uploaded file.",
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "A microservice that accepts a file and returns the size of said file.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.16.0",
+    "multer": "1.3.0"
   },
   "engines": {
     "node": "8.x"
   },
   "repository": {
-    "url": "https://znicholasbrown.github.io/filemeta-microservice"
+    "url": "https://znb-filemeta-microservice.herokuapp.com/"
   },
   "license": "MIT",
   "keywords": [
     "node",
-    "fcc",
     "express"
   ]
 }
